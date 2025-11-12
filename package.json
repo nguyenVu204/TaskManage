@@ -1,0 +1,21 @@
+{
+  "name": "todox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenVu204/TaskManage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenVu204/TaskManage/issues"
+  },
+  "homepage": "https://github.com/nguyenVu204/TaskManage#readme",
+  "description": ""
+}
